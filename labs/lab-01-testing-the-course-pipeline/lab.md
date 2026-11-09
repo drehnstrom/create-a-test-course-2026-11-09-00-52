@@ -9,7 +9,7 @@
 In this lab, you will validate an automated course generation pipeline by inspecting repository execution artifacts, verifying slide Markdown against the HTML Slides Viewer contract, and enforcing platform quality gates.
 
 ### You learn how to:
-- Inspect pipeline session state, chapter completion logs, and git version history.
+- Inspect pipeline session state, chapter completion logs, and Git version history.
 - Verify slide Markdown files against the HTML Slides Viewer syntax contract.
 - Validate quality gates for layout variety, typography, and code fences.
 - Create an automated verification script to detect course pipeline violations.
@@ -51,7 +51,7 @@ head -n 25 plan/course-outline.md
 
 6. Verify that the outline specifies the course title, audience, prerequisites, and learning objectives before any chapter files were drafted.
 
-7. Review recent git commits to confirm that each pipeline stage made atomic commits:
+7. Review recent Git commits to confirm that each pipeline stage made atomic commits:
 
 ```bash
 git log --oneline -n 5
@@ -161,7 +161,7 @@ chmod +x scripts/verify-course.sh
 ## Congratulations!
 
 In this lab, you have:
-- Inspected pipeline session state, chapter completion logs, and git version history.
+- Inspected pipeline session state, chapter completion logs, and Git version history.
 - Verified slide Markdown files against the HTML Slides Viewer syntax contract.
 - Validated quality gates for layout variety, typography, and code fences.
 - Created an automated verification script to detect course pipeline violations.

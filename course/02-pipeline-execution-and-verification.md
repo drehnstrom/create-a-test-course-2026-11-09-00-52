@@ -99,7 +99,7 @@ ls -la plan/
 
 - Network drops or rate limits can pause a pipeline mid-run
 - File-based tracking enables clean resumption from the exact failed step
-- Uncommitted edits from an aborted step are discarded via git commands
+- Uncommitted edits from an aborted step are discarded via Git commands
 - Previously completed chapters remain preserved and verified in repository history
 
 > [!TIP]
@@ -233,7 +233,7 @@ Lab link: TODO
 
 **Why is viewer syntax conformance treated as a non-negotiable hard gate in the pipeline?**
 
-- A. The presentation viewer automatically re-formats invalid markdown on the server
+- A. The presentation viewer automatically reformats invalid Markdown on the server
 - B. Invalid layout comments or malformed separators break deck rendering during live delivery
 - C. Markdown syntax errors only affect PDF export tools and leave browser slides intact
 - D. Layout directives are optional hints that the viewer ignores at runtime

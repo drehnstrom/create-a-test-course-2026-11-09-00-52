@@ -142,7 +142,7 @@ Create a Test Course
 
 ### Independent Verification Models
 - Use a different model tier to review technical accuracy
-- Prevents self-confirmation bias when verifying CLI flags and APIs
+- Prevent self-confirmation bias when verifying CLI flags and APIs
 - Lightweight models execute final copy editing and rule checks
 
 <!-- below-columns -->
@@ -258,7 +258,7 @@ labs/lab-01-pipeline/lab.md      # Step 7: Lab Generator
 
 **Why does the course generation pipeline run each step in a fresh agent session?**
 
-- A. To bypass git commit history and avoid tracking file changes
+- A. To bypass Git commit history and avoid tracking file changes
 - B. To prevent context window degradation and avoid carrying forward hallucinations
 - C. To allow agents to rewrite earlier approved course outlines
 - D. To eliminate the need for human outline review
