@@ -1,1 +1,2 @@
 course/01-pipeline-fundamentals.md
+course/02-pipeline-execution-and-verification.md
